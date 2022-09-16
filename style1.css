@@ -1,0 +1,195 @@
+header{
+	background-image: url(./images/background.jpg);
+	height: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+h1, h2, h3{
+	font-family: "Roboto Slab",serif;
+	font-size: 36px;
+}
+
+h1, h2{
+	text-align: center;
+}
+
+h1{
+	color: white;
+	padding-top: 45px;
+}
+
+h3{
+	font-size: 25px;
+}
+
+p, a{
+	font-family: Source Sans Pro,sans-serif;
+	font-size: 18px;
+	color: rgb(51, 51, 51);
+}
+
+p{
+	line-height: 32px;
+}
+
+a{
+	white-space: nowrap;
+	margin-left: 75px;
+	text-decoration: none;
+}
+
+.profile{
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin: -50px auto;
+	border-radius: 100%;
+}
+
+.icons, section > p{
+	display: inline-block;
+	font-size: 1.5vw;
+
+}
+
+@media only screen and (max-width: 1275px) {
+  .icons {
+    display: none;
+  }
+
+  nav ul{
+  	display: none;
+  }
+}
+
+section{
+	margin-left: 12%;
+}
+
+section p{
+	margin-left: 75px;
+	white-space: nowrap;
+}
+
+.fa{
+	font-family: Source Sans Pro,sans-serif;
+	font-size: 18px;
+	color: rgb(51, 51, 51);
+  padding: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+ 
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram {
+  color: black;
+  
+}
+
+.fa-linkedin{
+  color: black;
+}
+
+.fa-github{
+	color: black;
+}
+
+
+nav li{
+	display: inline;
+	float: left;
+}
+
+
+
+nav ul {
+	font-family: Source Sans Pro,sans-serif;
+  font-size: 1.2vw;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #191b1a;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 40px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+article{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 90px;
+}
+
+.card {
+	max-width: 1000px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  flex: 30%;
+  margin: 20px;
+}
+
+
+
+.container {
+  padding: 10px 16px;
+  
+}
+
+
+.fast-image{
+	width: 30vw;
+	height: 20vw;
+	display: block;
+	margin: auto;
+
+}
+
+p > a{
+	color: #42b4d6;
+	margin: 0%;
+}
+
+p > a:hover{
+	text-decoration: underline;
+}
+
+h2 + ul{
+	background-color: white;
+}
+
+.container li{
+	font-family: Source Sans Pro,sans-serif;
+	line-height: 32px;
+	font-size: 18px;
+	color: rgb(51, 51, 51);
+	display: block;
+	list-style: circle;
+}
+
+footer{
+	height: 40px;
+	background-color: #191b1a;
+}
+
+footer p{
+	font-size: 12px;
+	color: white;
+	text-align: center;
+}

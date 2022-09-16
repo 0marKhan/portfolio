@@ -1,0 +1,48 @@
+body{
+	background-color: #181c1d;
+}
+
+h1{
+	font-family: "Roboto Slab",serif;
+	font-size: 36px;
+	color: white;
+	text-align: center;
+}
+
+table{
+	padding-top: 60px;
+	margin: auto;
+	padding-bottom: 60px;
+}
+
+th, tr, td{
+	color: white;
+	font-family: Source Sans Pro, sans-serif;
+	border-collapse: collapse;
+	border: 1px solid #525d5c;
+	padding: 30px;
+}
+
+.free-day{
+	background-color: #E80D69;
+}
+
+.web{
+	background-color: #0BC2B5;
+}
+
+.nlp{
+	background-color: #FF440E;
+}
+
+.algo{
+	background-color: #7506B2;
+}
+
+.info{
+	background-color: #9D000F;
+}
+
+.ppit{
+	background-color: #282CCF;
+}

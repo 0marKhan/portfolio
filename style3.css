@@ -1,0 +1,26 @@
+body{
+	background-color: #181c1d;
+}
+
+h1{
+	font-family: "Roboto Slab",serif;
+	font-size: 36px;
+	color: white;
+	text-align: center;
+}
+
+a{
+	color: #42b4d6;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+li{
+	color: white;
+	font-family: Source Sans Pro,sans-serif;
+	font-size: 18px;
+	line-height: 32px;
+}
